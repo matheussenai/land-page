@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land page - SENAI</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-red fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" class="img-fluid" width="150" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse ms-auto mb-2 mb-lg-0" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active fs-5 text-uppercase" aria-current="page" href="#">Início</a>
+                    <a class="nav-link fs-5 text-uppercase" href="#secao-projetos">Sobre</a>
+                    <a class="nav-link fs-5 text-uppercase" href="#secao-locais">Endereço</a>
+                    <a class="nav-link fs-5 text-uppercase contact text-center" href="#secao-endereco">Contate-nos</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <section class="secao-home">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg">
+                    <h1>cursos técnicos senai</h1>
+                    <hr>
+                    <h2 class="text-color-red">senai informática</h2>
+                    <img src="mouse-down.png" class="img-mouse" width="80" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="secao-projetos" class="secao-projetos">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg text-color-red">
+                    <h3>sobre os projetos</h3>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-5">
+                    <img src="imagem-seção-sobre.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg ps-7 mt-5 mt-md-0">
+
+                    <div class="row">
+                        <div class="col-lg">
+                            <h5 class="font-courier">participantes</h5>
+                            <h4 class="font-bebas text-color-orange">mais de 80 alunos organizados em 16 grupos</h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg">
+                            <p class="text-justify font-roboto">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec pellentesque dui.
+                                Nunc orci sem, ultricies ac metus a, sodales interdum diam. Fusce lectus tellus,
+                                malesuada a ipsum ut, hendrerit tempor est. Ut dignissim nibh maximus ipsum tincidunt
+                                congue. Curabitur convallis magna sit amet erat facilisis posuere. Nam eleifend faucibus
+                                nisi aliquet congue. In eu sagittis ligula, ac lacinia sem. Proin gravida rutrum
+                                dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium, nibh ut
+                                porta luctus, diam tellus porttitor enim, quis ullamcorper nibh urna a orci.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="secao-locais" class="secao-locais font-courier">
+        <div class="container">
+
+            <div class="row align-items-center">
+                <div class="col-lg mb-5 mb-md-0">
+                    
+                    <div class="box-locais mx-auto">
+                        local
+                        <div class="box">
+                            são paulo
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg mb-5 mb-md-0">
+                    
+                    <div class="box-locais mx-auto">
+                        duração
+                        <div class="box">
+                            90 dias
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg mb-5 mb-md-0">
+                    
+                    <div class="box-locais mx-auto">
+                        desafios
+                        <div class="box">
+                            +30 desafios
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <section id="secao-endereco" class="secao-endereco">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col align-self-center">
+
+                    <div class="box-endereco position-relative">
+                        <h3 class="text-color-orange">endereço:</h3>
+                        <div class="box font-courier p-5 lh-1">
+                            <p>Alameda Barão de Limeira, 539</p>
+                            <p>Santa Cecilia, São Paulo - SP</p>
+                            <p>CEP: 01202-001</p>
+                        </div>
+
+                        <!-- <img src="mapa.png" class="position-absolute float-end" width="250" alt=""> -->
+                        <iframe class="position-absolute img-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.958590767907!2d-50.429600984431204!3d-21.193803884320513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94964154e7c81221%3A0xf3860f0ce9a208e6!2sSENAI%20Ara%C3%A7atuba!5e0!3m2!1spt-BR!2sbr!4v1654558207962!5m2!1spt-BR!2sbr" width="250" height="214" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="text-center p-4 mt-auto">
+        <p class="m-0">Copyright © 2022 - Escola Senai de Informática</p>
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

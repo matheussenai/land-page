@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&family=Roboto:wght@300&display=swap');
+
+@media (min-width: 768px) {
+    hr{
+        width: 45%;
+    }
+
+    .ps-7 {
+        padding-left: 7.5rem !important;
+    }
+
+    .box-endereco .img-map {
+        right: 20px;
+        top: -8px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    hr{
+        width: 94%;
+    }
+
+    .box-endereco .img-map {
+        position: unset !important;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+body {
+    background-color: #080224;
+    color: white;
+}
+
+nav {
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*.navbar .navbar-nav > a {
+    line-height: 48px;
+}
+*/
+
+.bg-red {
+    background-color: #F9003D;
+}
+
+.nav-link.contact {
+    background-color: #A058FF;
+    border: 1px solid #080324;
+    min-width: 18%;
+}
+
+.font-bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.font-courier {
+    font-family: 'Courier Prime', monospace;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.text-color-red {
+    color: #F9003D;
+}
+
+.text-color-orange {
+    color: #FFAF00;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: white;
+    font-size: 80px;
+}
+
+h2{
+    font-family: 'Courier Prime', monospace;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 45px;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 3.125em;
+}
+
+h4 {
+    font-size: 2.8125em;
+    text-transform: uppercase;
+}
+
+h5 {
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.nav-link {
+    margin-right: 55px;
+    margin-left: 55px;
+}
+
+.secao-home {
+    background-image: url(imagem-fundo-banner.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.secao-home .row {
+    height: 768px;
+}
+
+hr {
+    border: 1px solid #FFAF00;
+    opacity: 1;
+    margin: 35px 0px 35px 0px;
+}
+
+.img-mouse {
+    margin-bottom: 56px;
+}
+
+.secao-projetos {
+    margin-top: 30px;
+}
+
+.secao-projetos p {
+    font-size: 1.25em;
+}
+
+.secao-locais {
+    margin-top: 30px;
+    background-image: url(imagem-fundo-info.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    text-transform: uppercase;
+}
+
+.secao-locais .row {
+    min-height: 230px;
+}
+
+.box-locais {
+    width: 250px;
+    font-weight: 600;
+}
+
+.box-locais .box {
+    border: 2px solid #A259F7;
+    color: #A259F7;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5625em;
+    height: 90px;
+    line-height: 90px;
+}
+
+.secao-endereco {
+    background-image: url(imagem-fundo-ranking.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+
+.secao-endereco .row {
+    min-height: 330px;
+}
+
+.box-endereco .box {
+    border: 2px solid #A259F7;
+    color: #A259F7;
+    font-size: 1.25em;
+    background-color: black;
+}
+
+.box-endereco .box p {
+    margin: 0;
+}
+
+footer {
+    background-color: #F9003D;
+    color: white;
+}
